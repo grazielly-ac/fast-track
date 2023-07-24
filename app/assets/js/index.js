@@ -5,6 +5,7 @@ const links = document.querySelectorAll(".lista-link"); //seleciona todos os lin
 const divPai = document.querySelector(".divPai");
 const paiDivItens = document.querySelector(".div-pai");
 const itensPesquisados = document.querySelector(".pesquisados");
+const pesquisadosDivItens = document.querySelector(".pesquisados-itens");
 const btnPesquisar = document.getElementById("btnPesquisar");
 const pesquisarEntrada = document.querySelector("#pesquisar");
 let listaCarrinho = arrayCarrinho;
@@ -80,20 +81,23 @@ async function todosOsDados(){
 
 btnPesquisar.addEventListener("click", async () => {
     //limpar div dos produtos selecionados anteriormente, a cada clique  <div class="pesquisados"></div>
-    while(itensPesquisados.firstChild){
-        itensPesquisados.removeChild(itensPesquisados.firstChild);
+    while(pesquisadosDivItens.firstChild){
+        pesquisadosDivItens.removeChild(pesquisadosDivItens.firstChild);
     }
 
     let todosProdutos = await todosOsDados();
     let valorProcurado = pesquisarEntrada.value; //entrada do usuário no input
 
+
     todosProdutos.forEach(item => {
         let descricao = item.produto; //titulo do produto
-
-        if(descricao.toLowerCase().includes(valorProcurado.toLowerCase())){ //compara se o valor procurado está contido em item.produto 
+       
+        if(descricao.toLowerCase().includes(valorProcurado.toLowerCase()) && pesquisarEntrada.value != undefined){ //compara se o valor procurado está contido em item.produto 
             divPai.style.display = "none"; //oculta os produtos para apresentar os selecionados
             itensPesquisados.style.display = "flex";
-            createCard(item, itensPesquisados); //cria cards dos produtos pesquisados
+            createCard(item, pesquisadosDivItens); //cria cards dos produtos pesquisados
+        }else{
+            
         }
     });
 
@@ -102,7 +106,7 @@ btnPesquisar.addEventListener("click", async () => {
 /**Função para selecionar produto pelo campo pesquisa, ao clicar no botão pesquisar */
 
 /**Modal de produtos selecionados - exibir no botão de carrinho */
-
+console.log(pesquisarEntrada.valueo)
 export const atualizarCarrinho = async () => {
     
     listaCarrinho = await buscarCarrinho();
@@ -119,10 +123,11 @@ export const atualizarCarrinho = async () => {
   
 
     listaCarrinho.forEach((item) => {
-        console.log(item)
+      
         const card = document.createElement("div");
-        card.setAttribute("class","card col-4 card-item");
+        card.setAttribute("class","card card-item");
         card.style.width = "15rem";
+        card.classList.add("mb-3");
 
         const img = document.createElement("img");
         img.src = item.caminho;

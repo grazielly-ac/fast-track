@@ -115,10 +115,24 @@
   ],
   "carrinho": [
     {
+      "id": 2,
+      "produto": "Camisa Sonic",
+      "preco": "R$42,00",
+      "caminho": "../app/assets/img/infantil/2.jpg",
+      "quantidade": 2
+    },
+    {
       "id": 3,
       "produto": "Blusa Botão Sem Manga",
       "preco": "R$59,90",
       "caminho": "../app/assets/img/feminino/3.jpg",
+      "quantidade": 1
+    },
+    {
+      "id": 4,
+      "produto": "Camisa T-Rex",
+      "preco": "R$42,00",
+      "caminho": "../app/assets/img/infantil/4.jpg",
       "quantidade": 1
     }
   ]

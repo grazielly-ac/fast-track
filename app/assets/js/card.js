@@ -7,7 +7,7 @@ export function createCard(objeto, divPai){
 
 
     const card = document.createElement("div");
-    card.setAttribute("class","card col-4");
+    card.setAttribute("class","card");
     card.style.width = "15rem";
     card.classList.add("mb-3")
 
