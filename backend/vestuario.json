@@ -1,0 +1,125 @@
+{
+  "feminino": [
+    {
+      "id": 1,
+      "produto": "Manga Longa Xadrez PR",
+      "preco": "R$89,90",
+      "caminho": "../app/assets/img/feminino/1.jpg"
+    },
+    {
+      "id": 2,
+      "produto": "Manga Longa Xadrez BP",
+      "preco": "R$89,90",
+      "caminho": "../app/assets/img/feminino/2.jpg"
+    },
+    {
+      "id": 3,
+      "produto": "Blusa Botão Sem Manga",
+      "preco": "R$59,90",
+      "caminho": "../app/assets/img/feminino/3.jpg"
+    },
+    {
+      "id": 4,
+      "produto": "Blusa Meia Manga Bege",
+      "preco": "R$89,90",
+      "caminho": "../app/assets/img/feminino/4.jpg"
+    },
+    {
+      "id": 5,
+      "produto": "Blusa Estampa Onça",
+      "preco": "R$102,00",
+      "caminho": "../app/assets/img/feminino/5.jpg"
+    },
+    {
+      "id": 6,
+      "produto": "Blusa Life Style Black",
+      "preco": "R$88,60",
+      "caminho": "../app/assets/img/feminino/6.jpg"
+    }
+  ],
+  "masculino": [
+    {
+      "id": 1,
+      "produto": "Manga Longa Xadrez CB",
+      "preco": "R$89,90",
+      "caminho": "../app/assets/img/masculino/1.jpg"
+    },
+    {
+      "id": 2,
+      "produto": "Suéter Quentinho Blue",
+      "preco": "R$189,90",
+      "caminho": "../app/assets/img/masculino/2.jpg"
+    },
+    {
+      "id": 3,
+      "produto": "Camisa Rick e Morty",
+      "preco": "R$129,90",
+      "caminho": "../app/assets/img/masculino/3.jpg"
+    },
+    {
+      "id": 4,
+      "produto": "Camisa Polo Cinza",
+      "preco": "R$88,60",
+      "caminho": "../app/assets/img/masculino/4.jpg"
+    },
+    {
+      "id": 5,
+      "produto": "Camisa Botão Estampada",
+      "preco": "R$114,50",
+      "caminho": "../app/assets/img/masculino/5.jpg"
+    },
+    {
+      "id": 6,
+      "produto": "Camisa Social Manga Longa",
+      "preco": "R$159,90",
+      "caminho": "../app/assets/img/masculino/6.jpg"
+    }
+  ],
+  "infantil": [
+    {
+      "id": 1,
+      "produto": "Manga Longa Lilo e Stitch",
+      "preco": "R$54,40",
+      "caminho": "../app/assets/img/infantil/1.jpg"
+    },
+    {
+      "id": 2,
+      "produto": "Camisa Sonic",
+      "preco": "R$42,00",
+      "caminho": "../app/assets/img/infantil/2.jpg"
+    },
+    {
+      "id": 3,
+      "produto": "Vestido Vermelho Xadrez",
+      "preco": "R$114,90",
+      "caminho": "../app/assets/img/infantil/3.jpg"
+    },
+    {
+      "id": 4,
+      "produto": "Camisa T-Rex",
+      "preco": "R$42,00",
+      "caminho": "../app/assets/img/infantil/4.jpg"
+    },
+    {
+      "id": 5,
+      "produto": "Suéter Minnie",
+      "preco": "R$130,00",
+      "caminho": "../app/assets/img/infantil/5.jpg"
+    },
+    {
+      "id": 6,
+      "produto": "Vestido Estampado Onça",
+      "preco": "R$114,90",
+      "caminho": "../app/assets/img/infantil/6.jpg"
+    }
+  ],
+  "carrinho": [
+    {
+      "id": 3,
+      "produto": "Blusa Botão Sem Manga",
+      "preco": "R$59,90",
+      "caminho": "../app/assets/img/feminino/3.jpg",
+      "quantidade": 1
+    }
+  ]
+}

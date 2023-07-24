@@ -1,0 +1,27 @@
+{
+  "name": "fast-track",
+  "version": "1.0.0",
+  "description": "FastTrack project ",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch app/scss:app/assets/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "SASS",
+    "json-server",
+    "HTML",
+    "Javascript",
+    "Node.js"
+  ],
+  "author": "Grazielly Cunha",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.2.3"
+  }
+}

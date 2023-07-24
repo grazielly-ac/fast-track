@@ -1,0 +1,11 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Fast Track Imã Tech e Novo Mundo",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch vestuario.json"
+  },
+  "author": "Grazielly Cunha",
+  "license": "ISC"
+}

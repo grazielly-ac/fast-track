@@ -1,0 +1,29 @@
+//white e gray colors
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+//IMÃ TECH colors
+$blue-dark:     #211C4A;
+$blue:          #2D2765;
+$blue-light:    #6596DF;
+$pink:          #CE1151;
+$black:         #1f1f1e;
+$white:         #fff;
+$ice:           #dbd7d7de;
+
+
+
+$primary:       $blue-dark;
+$secondary:     $blue-light;
+
+
+//import bootstrap 5
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
